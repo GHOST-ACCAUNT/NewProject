@@ -1,3 +1,31 @@
+import { Button } from "../../../common/button/Button";
+
 export const Navbar = () => {
-  return <div>navbar</div>;
+  return (
+    <div className='container'>
+      <nav className='flex justify-center gap-20 items-center'>
+        <h3 className='text-blue-600 text-4xl not-italic font-bold mr-20'>
+          Socielity
+        </h3>
+        <ul className='flex gap-7'>
+          <li className='text-base not-italic font-bold leading-6'>
+            <a href='#0'>Socielity</a>
+          </li>
+          <li className='text-base not-italic font-bold leading-6'>
+            <a href='#1'>Resources</a>
+          </li>
+          <li className='text-base not-italic font-bold leading-6'>
+            <a href='#2'>Platfrom</a>
+          </li>
+          <li className='text-base not-italic font-bold leading-6'>
+            <a href='#3'>Support</a>
+          </li>
+          <li className='text-base not-italic font-bold leading-6'>
+            <a href='#4'>Login</a>
+          </li>
+        </ul>
+        <Button type='primary'>Explore Now</Button>
+      </nav>
+    </div>
+  );
 };
