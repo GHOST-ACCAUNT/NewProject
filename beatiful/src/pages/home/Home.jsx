@@ -1,4 +1,9 @@
-import { Hero, Navbar, Partners } from "../../components/pages/home-components";
+import {
+  Hero,
+  Navbar,
+  Partners,
+  Services,
+} from "../../components/pages/home-components";
 
 export const Home = () => {
   return (
@@ -6,6 +11,7 @@ export const Home = () => {
       <Navbar />
       <Hero />
       <Partners />
+      <Services />
     </div>
   );
 };

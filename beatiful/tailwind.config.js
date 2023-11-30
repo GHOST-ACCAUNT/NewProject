@@ -19,6 +19,10 @@ export default {
         "segoe-ui": "Segoe UI",
       },
       colors: {
+        yomon: {
+          default: "#666",
+          1: "#474747",
+        },
         globalBlue: {
           default: "#4579CB",
         },
