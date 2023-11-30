@@ -4,7 +4,9 @@ import {
   Partners,
   Services,
   Socielity,
+  Testimonial,
 } from "../../components/pages/home-components";
+import { Know } from "../../components/pages/home-components/know";
 
 export const Home = () => {
   return (
@@ -14,6 +16,8 @@ export const Home = () => {
       <Partners />
       <Services />
       <Socielity />
+      <Testimonial />
+      <Know />
     </div>
   );
 };
