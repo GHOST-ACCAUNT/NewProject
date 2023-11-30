@@ -3,6 +3,7 @@ import {
   Navbar,
   Partners,
   Services,
+  Socielity,
 } from "../../components/pages/home-components";
 
 export const Home = () => {
@@ -12,6 +13,7 @@ export const Home = () => {
       <Hero />
       <Partners />
       <Services />
+      <Socielity />
     </div>
   );
 };
